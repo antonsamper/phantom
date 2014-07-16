@@ -436,7 +436,7 @@ article {
 }
 
 article code {
-    font-size: .85em;
+    font-size: .7em;
     display: inline;
     font-family: Consolas, Lucida Console, Monaco, Andale Mono, "MS Gothic", monospace;
 }
@@ -444,8 +444,10 @@ article pre > code {
     display: block;
     word-wrap: break-word;
     padding: 0 0 0 20px;
-    padding-left: 2.5em;
+    padding-left: 1.3em;
     position: relative;
+    border-left: 1px solid #EBEBEB;
+    margin-left: 20px;
 }
 article pre > code.linenums {
     padding-left: 1em;
@@ -469,7 +471,7 @@ article pre > code::before {
     -o-transform-origin: 0 0;
     -ms-transform-origin: 0 0;
     transform-origin: 0 0;
-    left: 1em;
+    left: .8em;
     top: 13px;
     text-transform: uppercase;
     font-family: 'Verlag A', 'Verlag B', HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
