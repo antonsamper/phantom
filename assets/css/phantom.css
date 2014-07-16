@@ -116,8 +116,7 @@ strong {
   }
 }
 
-.comments,
-footer {
+.comments {
   padding: 120px 0;
 }
 
@@ -641,7 +640,7 @@ footer {
           animation-duration: 1s;
 }
 
-footer h1 {
+footer p {
     margin: 10px;
     font-size: 0.65em;
     font-weight: 400;
