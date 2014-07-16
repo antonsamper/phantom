@@ -642,26 +642,12 @@ footer {
 }
 
 footer h1 {
-  margin: 0 0 10px 0;
-  font-size: 24px;
-  font-weight: 400;
-  color: #464c4c;
-}
-
-@media (max-width: 480px) {
-  footer h1 {
-    font-size: 20px;
-  }
-}
-
-footer p {
-  margin: 0;
-}
-
-@media (max-width: 992px) {
-  footer span {
-    display: block;
-  }
+    margin: 10px;
+    font-size: 0.65em;
+    font-weight: 400;
+    color: #464c4c;
+    text-transform: uppercase;
+    text-align: right;
 }
 
 @media print {
