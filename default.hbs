@@ -7,7 +7,7 @@
         <meta charset="utf-8" />
         <meta name="description" content="{{@blog.description}}" />
         <meta name="author" content="{{@blog.title}}" />
-        <meta name="designer" content="Hayden Bleasel" />
+        <meta name="designer" content="Anton Samper Rivaya" />
         <meta name="rating" content="general" />
 
         {{! Robots and Viewport. }}
@@ -67,7 +67,7 @@
         </div>
         <footer class="animated fadeInUp" id="footer">
             <div class="text-center">
-                <h1>All content copyright &copy; {{@blog.title}} {{date format="YYYY"}}</h1>
+                <h1>All content copyright &copy; {{@blog.title}}, {{date format="YYYY"}}</h1>
             </div>
         </footer>
 
@@ -76,6 +76,7 @@
         {{! Deferred scripts. }}
         <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.2/fastclick.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/retina.js/1.3.0/retina.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/run_prettify.min.js"></script>
         <script src="{{asset 'js/phantom.js'}}"></script>
     </body>
 </html>
