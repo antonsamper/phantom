@@ -776,3 +776,6 @@ code .var {
 code .fun {
     color: red;
 }
+code .pln {
+    color: #a88960;
+}
