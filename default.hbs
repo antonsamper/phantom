@@ -58,8 +58,9 @@
             <div class="container">
                 <a href="{{@blog.url}}" class="text-right sidebar brand">
                     {{#if @blog.logo}}<img src="{{@blog.logo}}" alt="{{@blog.title}}" />{{/if}}
-                </a>
-                <p>{{@blog.title}}</p>
+
+                <p><a href="{{@blog.url}}" class="text-right sidebar brand">
+                    {{@blog.title}}</a></p>
             </div>
         </nav>
         <div class="main">
