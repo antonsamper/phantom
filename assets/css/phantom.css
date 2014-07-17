@@ -149,15 +149,18 @@ strong {
   float: left;
 }
 
-.navigation a {
-  height: 30px;
-  padding: 15px 0;
-  border: none;
+.navigation a.brand {
+    padding: 15px 0;
+    border: none;
+}
+
+.navigation a.brand,
+.navigation a.brand img{
+    height: 60px;
 }
 
 .navigation a img {
   width: auto;
-  height: 60px;
 }
 
 .navigation p {
